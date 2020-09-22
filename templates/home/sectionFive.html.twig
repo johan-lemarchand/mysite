@@ -1,8 +1,8 @@
-<section class="section_Five">
+<section class="section_Five" id="contact">
     <div class="section_five_container">
         <h2 class="section_five_title">Contactez-nous</h2>
 
-        <form class="section_five_form" action="">
+        <form class="section_five_form" action="" method="post">
             <div class="section_five_box_container">
             <div class="section_five_box1">
                 <h3 class="section_five_subtitle">Vos coordonnées</h3>
@@ -24,7 +24,7 @@
                         </div>
                         <div class="section_five_input_name_input">
                         <label>
-                                <input type="text" placeholder="Nom / Prénom"> <br>
+                                <input type="text" name="nom" placeholder="Nom / Prénom"> <br>
                         </label>
                     </div>
                     </div>
@@ -34,7 +34,7 @@
                         </div>
                         <div class="section_five_input_mail_input">
                     <label>
-                        <input  type="email" placeholder="Email"> <br>
+                        <input name="email" type="email" placeholder="Email"> <br>
                     </label>
                         </div>
                     </div>
@@ -44,13 +44,13 @@
                         </div>
                         <div class="section_five_input_phone_input">
                     <label>
-                        <input  type="tel" placeholder="Téléphone">
+                        <input name="phone" type="tel" placeholder="Téléphone">
                     </label>
                         </div>
                     </div>
                     <div class="section_five_acceptation">
                         <label>
-                            <input class="section_five_acceptation_checkbox" type="checkbox">
+                            <input name="validation" class="section_five_acceptation_checkbox" type="checkbox">
                         </label>
                         <p class="section_five_acceptation_p">En soumettant ce formulaire, j'accepte que les informations saisies peuvent être
                             utilisé afin de réaliser un devis commerciale.</p>
@@ -66,7 +66,7 @@
                         <div class="section_five_box2_input_img"></div>
                         <div class="section_five_box2_input_input">
                     <label>
-                        <input type="text" placeholder="Titre de votre projet">
+                        <input type="text" name="title" placeholder="Titre de votre projet">
                     </label>
                         </div>
                     </div>
@@ -74,9 +74,9 @@
                     <div class="section_five_box2_input_two">
                         <div class="section_five_box2_input_two_img"></div>
                         <div class="section_five_box2_input_two_input">
-                    <label>
-                        <textarea placeholder="Description de votre projet"></textarea>
-                    </label>
+
+                        <textarea name="description" placeholder="Description de votre projet"></textarea>
+
                         </div>
                     </div>
                 </div>

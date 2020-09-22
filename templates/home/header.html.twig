@@ -1,16 +1,16 @@
 <header class="container">
     <div class="box1">
-        <a href="">
+        <a href="{{ path('home') }}">
             <img class="banner_img" src="{{ asset('assets/images/logo.png') }}" alt="logo web développeur">
         </a>
 
         <nav class="banner_nav">
 
-            <a class="banner_link" href="">Accueil</a>
-            <a class="banner_link" href="">Créations</a>
-            <a class="banner_link" href="">Service</a>
-            <a class="banner_link" href="">A propos</a>
-            <a class="banner_link" href="">Contact</a>
+            <a class="banner_link" href="{{ path('home') }}">Accueil</a>
+            <a class="banner_link" href="{{ path('home') }}#project">Créations</a>
+            <a class="banner_link" href="{{ path('service') }}">Service</a>
+            <a class="banner_link" href="{{ path('propos') }}">A propos</a>
+            <a class="banner_link" href="{{ path('home') }}#contact">Contact</a>
         </nav>
     </div>
 </header>

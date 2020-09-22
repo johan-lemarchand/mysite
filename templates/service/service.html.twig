@@ -1,0 +1,81 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    {% include'home/header.html.twig' %}
+    <main class="img_construct">
+        <section class="service-grid pb-5 pt-5">
+            <div class="container container_service">
+                <div class="row">
+                    <div class="col-xl-12 text-center mb-4">
+                        <div class="service-title">
+                            <h4>Nos services</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 text-center mb-3">
+                        <div class="service-wrap">
+                            <div class="service-icon">
+                                <i class="fas fa-layer-group"></i>
+                            </div>
+                            <h4>Application web et mobile</h4>
+                            <p>Nous réalisons tous vos projets web et applications mobile sous ios et androïd </p>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center mb-3">
+                        <div class="service-wrap">
+                            <div class="service-icon">
+                                <i class="far fa-chart-bar"></i>
+                            </div>
+                            <h4>Landing page</h4>
+                            <p>Nous réalisons vos site web pour présenter votre activité</p>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center mb-3">
+                        <div class="service-wrap">
+                            <div class="service-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h4>Design responsive</h4>
+                            <p>Toutes nos réalisations sont adaptés à tous les supports, du simple mobile au grands écrans</p>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center mb-3">
+                        <div class="service-wrap">
+                            <div class="service-icon">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <h4>services - maintenance</h4>
+                            <p>Nous gérons votre mise en ligne, nous pouvons gérer votre maintenance de vos site pour qu'ils restent à jour et en accord avec les nouvelles technologies</p>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center mb-3">
+                        <div class="service-wrap">
+                            <div class="service-icon">
+                                <i class="fas fa-chart-pie"></i>
+                            </div>
+                            <h4>Référencement - SEO</h4>
+                            <p>Notre expert en SEO et référencement se fera un plaisir de mettre votre site en avant pour qu'il ai la meilleur visibilité possible</p>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center mb-3">
+                        <div class="service-wrap">
+                            <div class="service-icon">
+                                <i class="fas fa-thumbs-up"></i>
+                            </div>
+                            <h4>support dédié</h4>
+                            <p>Nous mettons tout en oeuvre pour répondre instantanément à une demande 24/24 et 6 jours sur 7</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    {% include'home/footer.html.twig' %}
+{% endblock %}
