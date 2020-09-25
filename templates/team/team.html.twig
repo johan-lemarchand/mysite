@@ -1,0 +1,49 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    {% include'home/header.html.twig' %}
+    <main>
+        <div id="test-list">
+            <section>
+                <div class="top-box"></div>
+                <img src="{{ asset('assets/images/johan.png') }}" alt="Photo johan Lemarchand">
+                <div class="bottom-box">
+                    <blockquote>
+                        <p>Développeur web fullstack, <br> 31 ans et passionné du monde informatique depuis plus de 20 ans.</p>
+                    </blockquote>
+                    <div class="test-details">
+                        <p><span>Johan Lemarchand</span><br>Evreux, Haute-normandie</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="top-box"></div>
+                <img src="{{ asset('assets/images/vila.png') }}" alt="Photo Vila Savayong">
+                <div class="bottom-box">
+                    <blockquote>
+                        <p>web designer <br></p>
+                    </blockquote>
+                    <div class="test-details">
+                        <p><span>Vila Savayong</span><br>Strasbourg</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="top-box"></div>
+                <img src="{{ asset('assets/images/seo.jpeg') }}" alt="Photo Ryan Smith">
+                <div class="bottom-box">
+                    <blockquote>
+                        <p>Référenceur web/SEO manager <br></p>
+                    </blockquote>
+                    <div class="test-details">
+                        <p><span>Ryan Smith</span><br>Paris</p>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+    {% include'home/footer.html.twig' %}
+{% endblock %}

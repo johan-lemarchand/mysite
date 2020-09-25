@@ -52,12 +52,12 @@ class MainController extends AbstractController
         ]);
     }
     /**
-     * @Route("/propos", name="propos")
+     * @Route("/team", name="team")
      * @return Response
      */
-    public function propos()
+    public function team()
     {
-        return $this->render('propos/propos.html.twig', [
+        return $this->render('team/team.html.twig', [
             'controller_name' => 'MainController',
         ]);
     }
