@@ -7,7 +7,7 @@ html {
     font-family: risingSun, sans-serif, sans-serif;
 }
 
-.container {
+.container_header {
     width: 100%;
     display: flex;
     background-color: #b3d6d6;
@@ -19,6 +19,12 @@ html {
 
 .banner_link {
     color: #fafafa;
+    text-decoration: none;
+    font-size: 24px;
+    padding-right: 30px;
+}
+.banner_link:hover {
+    color: black;
     text-decoration: none;
     font-size: 24px;
     padding-right: 30px;
@@ -561,7 +567,7 @@ textarea::placeholder {
 
 .footer_box1 img {
     width: 150px;
-    height: 50px;
+    height: 60px;
     margin-top: 50px;
 
 }
@@ -584,6 +590,7 @@ textarea::placeholder {
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 50px;
+    margin-right: 50px;
 }
 
 .footer_box2 li {
@@ -619,7 +626,7 @@ textarea::placeholder {
 
 .footer_bottom_box {
     width: 100%;
-    margin: 0px 170px;
+    margin: 0px 160px;
     display: flex;
     justify-content: space-between;
 }
